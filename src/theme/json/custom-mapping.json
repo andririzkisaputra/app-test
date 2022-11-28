@@ -1,0 +1,106 @@
+{
+  "strict": {
+    "text-font-family": "OpenSans-Regular"
+  },
+  "components": {
+      "Toggle": {
+          "appearances": {
+              "default" : {
+                 "mapping" : {
+                   "width"        : 37,
+                   "height"       : 20,
+                   "thumbWidth"   : 18,
+                   "thumbHeight"  : 18,
+                   "outlineWidth" : 37,
+                 }
+              }
+          }
+       },
+      "Button": {
+          "meta": {},
+          "appearances": {
+            "filled": {
+              "mapping": {
+                "textFontFamily" : "OpenSans-SemiBold",
+              },
+              "variantGroups": {
+                "size" : {
+                  "medium" : {
+                    "borderRadius": 18,
+                    "textFontSize" : 16,
+                    "paddingVertical" : 8,
+                    "textFontWeight" : "normal"
+                  },
+                  "tiny" : {
+                    "borderRadius": 18,
+                    "textFontWeight" : "normal"
+                  },
+                  "small" : {
+                    "borderRadius": 18,
+                    "textFontWeight" : "normal"
+                  }
+                }
+              }
+            }
+          }
+      },
+      "Select": {
+          "meta": {},
+          "appearances": {
+              "default": {
+                  "mapping": {
+                    "paddingHorizontal": 16,
+                  },
+                  "variantGroups": {
+                      "status": {
+                          "basic": {},
+                          "primary": {},
+                          "success": {},
+                          "info": {},
+                          "warning": {},
+                          "danger": {},
+                          "control": {}
+                      },
+                      "size": {
+                        "medium" : {
+                          "borderRadius": 18,
+                          "paddingVertical" : 12,
+                          "placeholderFontSize" : 18,
+                          "textFontSize" : 18,
+                        }
+                      }
+                  }
+              }
+          }
+      },
+      "Datepicker" : {
+        "meta": {},
+        "appearances": {
+            "default": {
+                "mapping": {
+                  "paddingHorizontal": 16,
+                },
+                "variantGroups": {
+                    "status": {
+                        "basic": {},
+                        "primary": {},
+                        "success": {},
+                        "info": {},
+                        "warning": {},
+                        "danger": {},
+                        "control": {}
+                    },
+                    "size": {
+                      "medium" : {
+                        "borderRadius": 18,
+                        "paddingVertical" : 12,
+                        "placeholderFontSize" : 18,
+                        "textFontSize" : 18,
+                      }
+                    }
+                }
+            }
+        }
+      }
+   }
+}
